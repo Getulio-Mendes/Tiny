@@ -1,0 +1,7 @@
+program
+  x = read;
+  if x < 5 then
+    output 0;
+  else
+    output 1;
+  done;

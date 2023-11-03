@@ -1,0 +1,11 @@
+program
+  x = read;
+  y = read;
+  prod = x;
+
+  while y > 1 do
+    prod = prod * x;
+    y = y - 1;
+  done;
+
+  output prod;
